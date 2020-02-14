@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Track
+
+# Registering Track model for backend admin.
+admin.site.register(Track)
